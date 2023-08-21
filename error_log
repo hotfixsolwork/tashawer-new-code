@@ -1,0 +1,79 @@
+[15-Feb-2023 11:34:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'auzziech_cms.translations' doesn't exist in /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home2/auzziech/public_html/cms.io/vendor/la in /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[23-Feb-2023 04:33:30 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home2/auzziech/public_html/cms.io/vendor/composer/platform_check.php on line 24
+[23-Feb-2023 04:33:31 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home2/auzziech/public_html/cms.io/vendor/composer/platform_check.php on line 24
+[23-Feb-2023 04:33:32 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home2/auzziech/public_html/cms.io/vendor/composer/platform_check.php on line 24
+[10-Mar-2023 17:04:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#1 /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#2 /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#3 /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Databas in /home2/auzziech/public_html/hotfix.cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[15-May-2023 20:24:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#1 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#2 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'auzziech_cms', 'sHuT60(fMM!C', Array)
+#3 /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24) in /home2/auzziech/public_html/cms.io/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:34:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:34:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:34:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', 'k@R8X#76dRya', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:36:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', '3.1}}8Y)jcCG', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', '3.1}}8Y)jcCG', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[26-May-2023 13:37:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'auzziech_cms'@'localhost' (using password: YES) in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'auzziech_cms', '3.1}}8Y)jcCG', Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'auzziech_cms', '3.1}}8Y)jcCG', Array)
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySq in /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[31-May-2023 04:47:58 UTC] PHP Fatal error:  Uncaught ErrorException: Invalid argument supplied for foreach() in /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php:19
+Stack trace:
+#0 /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home3/tashawer...', 19, Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home3/tashawer...')
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home3/tashawer...', Array)
+#4 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEn in /home3/tashawer/public_html/resources/views/frontend/default/inc/footer.blade.php on line 19
+[31-May-2023 04:48:00 UTC] PHP Fatal error:  Uncaught ErrorException: Invalid argument supplied for foreach() in /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php:19
+Stack trace:
+#0 /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home3/tashawer...', 19, Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home3/tashawer...')
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home3/tashawer...', Array)
+#4 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEn in /home3/tashawer/public_html/resources/views/frontend/default/inc/footer.blade.php on line 19
+[31-May-2023 04:48:00 UTC] PHP Fatal error:  Uncaught ErrorException: Invalid argument supplied for foreach() in /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php:19
+Stack trace:
+#0 /home3/tashawer/public_html/storage/framework/views/c21016e4cd753d48e1d9ee27ce9a078b4d4fd408.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home3/tashawer...', 19, Array)
+#1 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home3/tashawer...')
+#2 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home3/tashawer...', Array)
+#4 /home3/tashawer/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEn in /home3/tashawer/public_html/resources/views/frontend/default/inc/footer.blade.php on line 19
